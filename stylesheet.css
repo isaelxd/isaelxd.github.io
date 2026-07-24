@@ -1,0 +1,110 @@
+/* <link rel="stylesheet" href="stylesheet.css"> */
+
+.titulo{
+    text-align: center;
+    color: black;
+}
+.parrafo {
+
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    position: relative;
+    
+}
+.boton{
+
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+   
+}
+.borde{
+    border-color: rgb(126, 223, 16);
+}
+.ar {
+    border: 7px solid gold; 
+    text-decoration: none;
+    border-radius: 10px;
+    animation: 2s btnfilter infinite linear;
+    background-color: black;   /*este da el color del fondo  */
+    color: white;    /*este dael color a las letras */
+}
+@keyframes btnfilter {
+    to {
+        filter: hue-rotate(0deg);
+    }
+    from {
+        filter: hue-rotate(360deg);
+    /* este es el del borde arcoiris pero solo funciona si el fondo es de un color fijo como el negro  */
+}}
+.tamañoboton{
+    height: 120px;
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 13px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.tamañoboton img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.contenedor-botones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+.boton-jefe-link {
+    text-decoration: none;
+}
+
+.boton-atras {
+    display: inline-block;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 9999;
+    margin: 0;
+}
+
+.boton-atras button {
+    padding: 8px 12px;
+    border-radius: 6px;
+    background: rgba(255,255,255,0.95);
+    color: #000;
+    border: none;
+    cursor: pointer;
+}
+/* margin: 0;
+      background-image: url('htmlmobs/recursos/fondo.jpg');
+      background-size: cover; 
+      background-position: center; 
+      background-repeat: no-repeat;
+      background-attachment: fixed; 
+      background-color: rgb(0, 0, 0);
+      este es el codigo del fondo */
+      .h1 {
+        text-align: center;
+        color: rgb(255, 255, 255);
+        
+      }
+      .p1 { text-align: center;
+        color: rgb(255, 255, 255);
+        }
+
